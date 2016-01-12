@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB316491C449BA500729460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316481C449BA500729460 /* main.m */; };
+		4BB3164C1C449BA500729460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3164B1C449BA500729460 /* AppDelegate.m */; };
+		4BB3164F1C449BA500729460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3164E1C449BA500729460 /* ViewController.m */; };
+		4BB316521C449BA500729460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB316501C449BA500729460 /* Main.storyboard */; };
+		4BB316541C449BA500729460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB316531C449BA500729460 /* Assets.xcassets */; };
+		4BB316571C449BA500729460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB316551C449BA500729460 /* LaunchScreen.storyboard */; };
+		4BB316621C449BA500729460 /* WZXNavAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB316611C449BA500729460 /* WZXNavAnimationDemoTests.m */; };
+		4BB3166D1C449BA500729460 /* WZXNavAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3166C1C449BA500729460 /* WZXNavAnimationDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BB3165E1C449BA500729460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB3163C1C449BA500729460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB316431C449BA500729460;
+			remoteInfo = WZXNavAnimationDemo;
+		};
+		4BB316691C449BA500729460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB3163C1C449BA500729460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB316431C449BA500729460;
+			remoteInfo = WZXNavAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BB316441C449BA500729460 /* WZXNavAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZXNavAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB316481C449BA500729460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BB3164A1C449BA500729460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BB3164B1C449BA500729460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BB3164D1C449BA500729460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BB3164E1C449BA500729460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BB316511C449BA500729460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BB316531C449BA500729460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BB316561C449BA500729460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BB316581C449BA500729460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB3165D1C449BA500729460 /* WZXNavAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXNavAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB316611C449BA500729460 /* WZXNavAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXNavAnimationDemoTests.m; sourceTree = "<group>"; };
+		4BB316631C449BA500729460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB316681C449BA500729460 /* WZXNavAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXNavAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB3166C1C449BA500729460 /* WZXNavAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXNavAnimationDemoUITests.m; sourceTree = "<group>"; };
+		4BB3166E1C449BA500729460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB316411C449BA500729460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB3165A1C449BA500729460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316651C449BA500729460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB3163B1C449BA500729460 = {
+			isa = PBXGroup;
+			children = (
+				4BB316461C449BA500729460 /* WZXNavAnimationDemo */,
+				4BB316601C449BA500729460 /* WZXNavAnimationDemoTests */,
+				4BB3166B1C449BA500729460 /* WZXNavAnimationDemoUITests */,
+				4BB316451C449BA500729460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB316451C449BA500729460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316441C449BA500729460 /* WZXNavAnimationDemo.app */,
+				4BB3165D1C449BA500729460 /* WZXNavAnimationDemoTests.xctest */,
+				4BB316681C449BA500729460 /* WZXNavAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB316461C449BA500729460 /* WZXNavAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4BB3164A1C449BA500729460 /* AppDelegate.h */,
+				4BB3164B1C449BA500729460 /* AppDelegate.m */,
+				4BB3164D1C449BA500729460 /* ViewController.h */,
+				4BB3164E1C449BA500729460 /* ViewController.m */,
+				4BB316501C449BA500729460 /* Main.storyboard */,
+				4BB316531C449BA500729460 /* Assets.xcassets */,
+				4BB316551C449BA500729460 /* LaunchScreen.storyboard */,
+				4BB316581C449BA500729460 /* Info.plist */,
+				4BB316471C449BA500729460 /* Supporting Files */,
+			);
+			path = WZXNavAnimationDemo;
+			sourceTree = "<group>";
+		};
+		4BB316471C449BA500729460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316481C449BA500729460 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BB316601C449BA500729460 /* WZXNavAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB316611C449BA500729460 /* WZXNavAnimationDemoTests.m */,
+				4BB316631C449BA500729460 /* Info.plist */,
+			);
+			path = WZXNavAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		4BB3166B1C449BA500729460 /* WZXNavAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB3166C1C449BA500729460 /* WZXNavAnimationDemoUITests.m */,
+				4BB3166E1C449BA500729460 /* Info.plist */,
+			);
+			path = WZXNavAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB316431C449BA500729460 /* WZXNavAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB316711C449BA500729460 /* Build configuration list for PBXNativeTarget "WZXNavAnimationDemo" */;
+			buildPhases = (
+				4BB316401C449BA500729460 /* Sources */,
+				4BB316411C449BA500729460 /* Frameworks */,
+				4BB316421C449BA500729460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZXNavAnimationDemo;
+			productName = WZXNavAnimationDemo;
+			productReference = 4BB316441C449BA500729460 /* WZXNavAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BB3165C1C449BA500729460 /* WZXNavAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB316741C449BA500729460 /* Build configuration list for PBXNativeTarget "WZXNavAnimationDemoTests" */;
+			buildPhases = (
+				4BB316591C449BA500729460 /* Sources */,
+				4BB3165A1C449BA500729460 /* Frameworks */,
+				4BB3165B1C449BA500729460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB3165F1C449BA500729460 /* PBXTargetDependency */,
+			);
+			name = WZXNavAnimationDemoTests;
+			productName = WZXNavAnimationDemoTests;
+			productReference = 4BB3165D1C449BA500729460 /* WZXNavAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BB316671C449BA500729460 /* WZXNavAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB316771C449BA500729460 /* Build configuration list for PBXNativeTarget "WZXNavAnimationDemoUITests" */;
+			buildPhases = (
+				4BB316641C449BA500729460 /* Sources */,
+				4BB316651C449BA500729460 /* Frameworks */,
+				4BB316661C449BA500729460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB3166A1C449BA500729460 /* PBXTargetDependency */,
+			);
+			name = WZXNavAnimationDemoUITests;
+			productName = WZXNavAnimationDemoUITests;
+			productReference = 4BB316681C449BA500729460 /* WZXNavAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB3163C1C449BA500729460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = wzx;
+				TargetAttributes = {
+					4BB316431C449BA500729460 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4BB3165C1C449BA500729460 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4BB316431C449BA500729460;
+					};
+					4BB316671C449BA500729460 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4BB316431C449BA500729460;
+					};
+				};
+			};
+			buildConfigurationList = 4BB3163F1C449BA500729460 /* Build configuration list for PBXProject "WZXNavAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BB3163B1C449BA500729460;
+			productRefGroup = 4BB316451C449BA500729460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB316431C449BA500729460 /* WZXNavAnimationDemo */,
+				4BB3165C1C449BA500729460 /* WZXNavAnimationDemoTests */,
+				4BB316671C449BA500729460 /* WZXNavAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BB316421C449BA500729460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB316571C449BA500729460 /* LaunchScreen.storyboard in Resources */,
+				4BB316541C449BA500729460 /* Assets.xcassets in Resources */,
+				4BB316521C449BA500729460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB3165B1C449BA500729460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316661C449BA500729460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB316401C449BA500729460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB3164F1C449BA500729460 /* ViewController.m in Sources */,
+				4BB3164C1C449BA500729460 /* AppDelegate.m in Sources */,
+				4BB316491C449BA500729460 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316591C449BA500729460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB316621C449BA500729460 /* WZXNavAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB316641C449BA500729460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB3166D1C449BA500729460 /* WZXNavAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BB3165F1C449BA500729460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB316431C449BA500729460 /* WZXNavAnimationDemo */;
+			targetProxy = 4BB3165E1C449BA500729460 /* PBXContainerItemProxy */;
+		};
+		4BB3166A1C449BA500729460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB316431C449BA500729460 /* WZXNavAnimationDemo */;
+			targetProxy = 4BB316691C449BA500729460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BB316501C449BA500729460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB316511C449BA500729460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BB316551C449BA500729460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB316561C449BA500729460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BB3166F1C449BA500729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BB316701C449BA500729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BB316721C449BA500729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZXNavAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXNavAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BB316731C449BA500729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZXNavAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXNavAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BB316751C449BA500729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXNavAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXNavAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXNavAnimationDemo.app/WZXNavAnimationDemo";
+			};
+			name = Debug;
+		};
+		4BB316761C449BA500729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXNavAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXNavAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXNavAnimationDemo.app/WZXNavAnimationDemo";
+			};
+			name = Release;
+		};
+		4BB316781C449BA500729460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZXNavAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXNavAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXNavAnimationDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4BB316791C449BA500729460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WZXNavAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordoor.WZXNavAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXNavAnimationDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB3163F1C449BA500729460 /* Build configuration list for PBXProject "WZXNavAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB3166F1C449BA500729460 /* Debug */,
+				4BB316701C449BA500729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB316711C449BA500729460 /* Build configuration list for PBXNativeTarget "WZXNavAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB316721C449BA500729460 /* Debug */,
+				4BB316731C449BA500729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB316741C449BA500729460 /* Build configuration list for PBXNativeTarget "WZXNavAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB316751C449BA500729460 /* Debug */,
+				4BB316761C449BA500729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB316771C449BA500729460 /* Build configuration list for PBXNativeTarget "WZXNavAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB316781C449BA500729460 /* Debug */,
+				4BB316791C449BA500729460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BB3163C1C449BA500729460 /* Project object */;
+}
